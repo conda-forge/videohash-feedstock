@@ -26,11 +26,6 @@ requirements:
     - yt-dlp
     - python >=3.6
     
-    ImageHash
-Pillow
-imagedominantcolor
-yt-dlp
-
 test:
   imports:
     - videohash
