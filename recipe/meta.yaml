@@ -22,9 +22,14 @@ requirements:
   run:
     - imagehash
     - pillow
-    - python >=3.6
-    - youtube-dl
+    - imagedominantcolor
     - yt-dlp
+    - python >=3.6
+    
+    ImageHash
+Pillow
+imagedominantcolor
+yt-dlp
 
 test:
   imports:
