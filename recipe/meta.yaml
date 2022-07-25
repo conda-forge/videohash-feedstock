@@ -1,5 +1,5 @@
 {% set name = "videohash" %}
-{% set version = "2.1.9" %}
+{% set version = "3.0.1" %}
 
 
 package:
@@ -8,8 +8,8 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/videohash-{{ version }}.tar.gz
-  sha256: d319907cde7b407bdc2bc40a756144171442155282cc5d2ec51e7739d60ae2dc
-  
+  sha256: 64ba3876804c584a4ae22c70d4708eea08e559c2ea9ce8a7926a2894b4f38c2f
+
 build:
   number: 0
   noarch: python
@@ -25,6 +25,7 @@ requirements:
     - python >=3.6
     - youtube-dl
     - yt-dlp
+    - imagedominantcolor
 
 test:
   imports:
